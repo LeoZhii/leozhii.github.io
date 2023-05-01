@@ -1,7 +1,3 @@
-body {
-    background: gold;
-}
-
 /* define the colour palette */
 :root {
     --color-primary: #2584ff;
@@ -154,4 +150,24 @@ a {
     .list--tick .list_item {
         padding: 0;
     }
+}
+
+/* Icons */
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.icon--primary {
+    fill: var(--color-primary);
+}
+
+.icon-container {
+    background: #f3f9fa;
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
