@@ -450,3 +450,12 @@ a {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+
+/* Testimonials */
+.testimonial {
+    padding: 3rem;
+}
+
+.testimonial_image {
+    width: 100%
+}
