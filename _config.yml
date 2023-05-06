@@ -1,2 +1,3 @@
 redirects:
-  - /leozhi.ca/projects/index.html/: /leozhi.ca/projects
+  - from: /leozhi.com/projects/index.html/
+    to: /leozhi.com/projects/
