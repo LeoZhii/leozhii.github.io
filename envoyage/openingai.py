@@ -1,9 +1,11 @@
 # pip install --upgrade openai
+import os
 from openai import OpenAI
-from apikey import OPENAI_API_KEY
+
+# Retrieve the API key from environment variables
+OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
 client = OpenAI(api_key=OPENAI_API_KEY)
-
 
 def askAway(city, startDate, endDate, hobbies):
   # system prompt
