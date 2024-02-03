@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Envoyage</title>
+</head>
+<body>
+    <form method="post" action="{{ url_for('process_form') }}">
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required>
+        <br>
+
+        <label for="startDate">Start Date:</label>
+        <input type="date" id="startDate" name="startDate" required>
+        <br>
+
+        <label for="endDate">End Date:</label>
+        <input type="date" id="endDate" name="endDate" required>
+        <br>
+
+        <label for="hobbies">Hobbies:</label>
+        <input type="text" id="hobbies" name="hobbies" required>
+        <br>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
